@@ -1,7 +1,6 @@
-import { SignupComponent } from "@/components/Signup";
+"use client"
+import { Signup } from "@/components/Signup";
 
-export default function Signup(){
-    return <>
-    <SignupComponent />
-    </>
+export default function SignUp() {
+    return <Signup />
 }
